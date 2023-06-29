@@ -32,6 +32,7 @@ async def scrape_g2crowd_urls(urls):
         finally:
             await browser.close()
 
+#NOTE: csv_file_path and output_file_path need to change the paths based on requirement
 
 csv_file_path = 'C:/Users/X1 YOGO - 6ND/Desktop/WebScrap-Plywright/URLS.csv'  # Path to your CSV file containing G2Crowd URLs
 output_file_path = 'C:/Users/X1 YOGO - 6ND/Desktop/WebScrap-Plywright/Fecthed_JSON_Data.json'  # Path to the output JSON file
